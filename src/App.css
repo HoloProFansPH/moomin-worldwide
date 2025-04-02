@@ -1,0 +1,113 @@
+#root {
+  max-width: 910px;
+  text-align: center;
+  margin: auto;
+}
+#bgGlobe {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  mix-blend-mode: overlay;
+  z-index: -1;
+}
+#logoImg {
+  height: 10rem;
+  align-self: center;
+}
+.tagline {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5B3D2D;
+  margin-bottom: 1rem;
+  /*text-shadow: 3px 3px 0 white, 3px -3px 0 white, -3px 3px 0 white, -3px -3px 0 white, 3px 0px 0 white, 0px 3px 0 white, -3px 0px 0 white, 0px -3px 0 white, 0px 5px 5px #474747;*/
+}
+.tagline #front {
+  position: absolute;
+  z-index: 1;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 6px white;
+}
+.tagline #back {
+  text-shadow: 0 6px 6px #000000;
+}
+.content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.card{
+  display: flex;
+  width: calc(100% - 4rem);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card.mainCard{
+  background-color: rgba(91, 61, 45, 0.75);
+  color: white;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.mainButton{
+  display: flex;
+  justify-content: center;
+  background-color: #00a497;
+  color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 3rem;
+  flex-grow: 1;
+  gap: 1rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}*/

@@ -1,0 +1,26 @@
+//import { Link } from "react-router-dom";
+import HomeDescription from "./components/HomeDescription";
+import Card from "./components/Card.tsx";
+import { Fragment } from "react";
+import MainButton from "./components/MainButton.tsx";
+function Home() {
+    return (
+        <div className="content">
+            {/*<div className="tagline">
+                <span id="front">A Digital Billboard Campaign dedicated to Nanashi Mumei</span>
+                <span id="back">A Digital Billboard Campaign dedicated to Nanashi Mumei</span>
+            </div>*/}
+            <img id="logoImg" src="/img/moomin worldwide logo with tagline.webp" alt="A Digital Billboard Campaign dedicated to Nanashi Mumei: Moomin' Worldwide"/>
+            <HomeDescription />
+            <div className="buttonRow">
+                <MainButton img="art.svg" text="Contribute Artworks" />
+                <MainButton img="ph.svg" text="Donate Locally (PH)" />
+                <MainButton img="worldmap.svg" text="Donate Internationally" />
+            </div>
+            <Card text={<Fragment><b>Campaign Ends on April 30, 2025.</b><br />
+                Excess money depending on what goal was reached, will be donated to HARIBON Foundation, an environmental conservation organization based in the Philippines.</Fragment>} />
+        
+        </div>
+    );
+}
+export default Home;
