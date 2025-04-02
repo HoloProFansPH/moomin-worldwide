@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //import { BrowserRouter as Router, Routes } from "react-router-dom";
 import './App.css'
 import Home from './Home'
+import ComingSoon from "./ComingSoon.tsx";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -11,9 +12,9 @@ function App() {
       <Router>
           <div id="bodyDiv">
               <Routes>
-                  <Route path="/" element={<Home />} />
+                  <Route path="/home-test" element={<Home />} />
+                  <Route path="/" element={<ComingSoon />} />
               </Routes>
-              <h1>Test</h1>
           </div>
           <img id="bgGlobe" src="public/img/moomin moa web.webp" alt="MOA Globe"/>
       </Router>
