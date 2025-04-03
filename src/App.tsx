@@ -12,11 +12,15 @@ function App() {
       <Router>
           <div id="bodyDiv">
               <Routes>
-                  <Route path="/home-test" element={<Home />} />
-                  <Route path="/" element={<ComingSoon />} />
+                  <Route path="/" element={<Home/>}/>
+                  <Route path="/soon" element={<ComingSoon/>}/>
               </Routes>
+              <p id="credits">
+                  Project organized by Moomin' Manila / Moomin' Worldwide<br />
+                  With technical support from HoloPro Fans PH
+              </p>
           </div>
-          <img id="bgGlobe" src="public/img/moomin moa web.webp" alt="MOA Globe"/>
+          <img id="bgGlobe" src="/img/moomin moa web.webp" alt="MOA Globe"/>
       </Router>
   )
 }

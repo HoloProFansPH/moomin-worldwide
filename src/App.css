@@ -42,6 +42,7 @@
 }
 .card{
   display: flex;
+  flex-direction: column;
   width: calc(100% - 4rem);
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 1rem;
@@ -51,6 +52,19 @@
 .card.mainCard{
   background-color: rgba(91, 61, 45, 0.75);
   color: white;
+}
+.cardHeader{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.cardTitle{
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .buttonRow {
@@ -74,6 +88,56 @@
   align-items: center;
   font-weight: bold;
   font-size: 1.2rem;
+  transition: 0.3s;
+  flex-basis: 0;
+}
+.mainButton:hover {
+  background-color: #6acbc6;
+}
+.mainButton:active {
+  background-color: #34898b;
+}
+.buttonRow a {
+  text-decoration: none;
+}
+
+#goalMeter {
+  margin-bottom: 0.5rem;
+}
+#goalsTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+.goalsTableRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+#credits {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonRow {
+    flex-direction: column;
+  }
+  #root {
+    height: 100vh;
+  }
+  #bgGlobe {
+    width: 100%;
+  }
+  #logoImg {
+    height: auto;
+    width: 100%;
+  }
+  .mainButton {
+    padding: 0.75rem;
+  }
 }
 /*
 .logo {

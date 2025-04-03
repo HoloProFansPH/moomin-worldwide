@@ -3,6 +3,7 @@ import HomeDescription from "./components/HomeDescription";
 import Card from "./components/Card.tsx";
 import { Fragment } from "react";
 import MainButton from "./components/MainButton.tsx";
+import GoalTracker from "./components/GoalTracker.tsx";
 function Home() {
     return (
         <div className="content">
@@ -13,10 +14,11 @@ function Home() {
             <img id="logoImg" src="/img/moomin worldwide logo with tagline.webp" alt="A Digital Billboard Campaign dedicated to Nanashi Mumei: Moomin' Worldwide"/>
             <HomeDescription />
             <div className="buttonRow">
-                <MainButton img="art.svg" text="Contribute Artworks" />
-                <MainButton img="ph.svg" text="Donate Locally (PH)" />
-                <MainButton img="worldmap.svg" text="Donate Internationally" />
+                {/*<MainButton link="" img="art.svg" text="Contribute Artworks" />*/}
+                <MainButton link="https://forms.gle/cYhrNWoQjDfBJEH29" img="ph.svg" text="Donate Locally (PH)"/>
+                <MainButton link="https://ko-fi.com/moominmanila/" img="worldmap.svg" text="Donate Internationally"/>
             </div>
+            <GoalTracker />
             <Card text={<Fragment><b>Campaign Ends on April 30, 2025.</b><br />
                 Excess money depending on what goal was reached, will be donated to HARIBON Foundation, an environmental conservation organization based in the Philippines.</Fragment>} />
         
