@@ -16,11 +16,12 @@ function App() {
                   <Route path="/soon" element={<ComingSoon/>}/>
               </Routes>
               <p id="credits">
-                  Project organized by Moomin' Manila / Moomin' Worldwide<br />
+                  Project organized by Moomin' Manila / Moomin' Worldwide<br/>
                   With technical support from HoloPro Fans PH
               </p>
           </div>
           <img id="bgGlobe" src="/img/moomin moa web.webp" alt="MOA Globe"/>
+          <img id="bg" src="/img/bg.webp" alt="BG"/>
       </Router>
   )
 }
