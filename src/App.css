@@ -76,6 +76,25 @@
   gap: 1rem;
   width: 100%;
 }
+.socmedRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.socmedButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5B3D2D;
+  color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  font-size: 32px;
+  padding: 0.5rem;
+}
 
 .mainButton{
   display: flex;
@@ -101,6 +120,9 @@
   background-color: #34898b;
 }
 .buttonRow a {
+  text-decoration: none;
+}
+.socmedRow a {
   text-decoration: none;
 }
 

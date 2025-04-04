@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css'
 import Home from './Home'
 import ComingSoon from "./ComingSoon.tsx";
+import SocMedButton from "./components/SocMedButton.tsx";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -15,6 +16,11 @@ function App() {
                   <Route path="/" element={<Home/>}/>
                   <Route path="/soon" element={<ComingSoon/>}/>
               </Routes>
+              <div className="socmedRow">
+                  <SocMedButton link="https://facebook.com/MoominManila" icon="facebook" />
+                  <SocMedButton link="https://twitter.com/MoominManila" icon="twitter" />
+                  <SocMedButton link="mailto:moominmanila@gmail.com" icon="envelope" />
+              </div>
               <p id="credits">
                   Project organized by Moomin' Manila / Moomin' Worldwide.<br/>
                   With technical support from HoloPro Fans PH.<br/>
