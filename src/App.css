@@ -144,6 +144,16 @@
   .mainButton {
     padding: 0.75rem;
   }
+  #goalsTable {
+    gap: 1rem;
+  }
+  .goalsTableRow {
+    flex-direction: column;
+    justify-content: left;
+  }
+  .tableRight {
+    text-align: left;
+  }
 }
 /*
 .logo {

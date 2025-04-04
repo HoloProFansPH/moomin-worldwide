@@ -14,7 +14,7 @@ function GoalTracker() {
                         <span className="tableRight">PHP 78,400 ~USD 1,500</span>
                     </div>
                     <div className="goalsTableRow">
-                        <span className="tableLeft"><b>Golden Goal:</b> 20-second ad on April 26, 2025</span>
+                        <span className="tableLeft"><b>Golden Goal:</b> increased to a 30-second ad on April 26, 2025</span>
                         <span className="tableRight">PHP 117,600 ~USD 2,200</span>
                     </div>
                     <div className="goalsTableRow">
@@ -27,11 +27,11 @@ function GoalTracker() {
                     </div>
                     <div className="goalsTableRow">
                         <span className="tableLeft">30-second ad on April 26, 27 & May 2, 2025</span>
-                        <span className="tableRight">PHP 352,800 ~ USD 6,500</span>
+                        <span className="tableRight">PHP 352,800 ~USD 6,500</span>
                     </div>
                     <div className="goalsTableRow">
                         <span className="tableLeft"><b>WE MOOM GOAL:</b> 30-second ads for an entire week</span>
-                        <span className="tableRight">PHP 604,800 ~ USD 11,000</span>
+                        <span className="tableRight">PHP 604,800 ~USD 11,000</span>
                     </div>
                     <div className="goalsTableRow">
                         <br />*note: airdate is subject to change depending on airslot availability.
