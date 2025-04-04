@@ -11,8 +11,8 @@
   bottom: 0;
   margin: 0;
   padding: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  right: 0;
+  width: 20rem;
   mix-blend-mode: overlay;
   z-index: -1;
 }
@@ -94,6 +94,13 @@
   border-radius: 3rem;
   font-size: 32px;
   padding: 0.5rem;
+  transition: 0.3s;
+}
+.socmedButton:hover {
+  background-color: #7b5e4b;
+}
+.socmedButton:active {
+  background-color: #402b1f;
 }
 
 .mainButton{
@@ -178,15 +185,21 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  #bgGlobe {
+    width: 100%;
+    max-width: 40rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .buttonRow {
     flex-direction: column;
   }
   #root {
     height: 100vh;
-  }
-  #bgGlobe {
-    width: 100%;
   }
   #logoImg {
     height: auto;
