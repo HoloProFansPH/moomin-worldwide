@@ -4,6 +4,7 @@ import Card from "./components/Card.tsx";
 import { Fragment } from "react";
 import MainButton from "./components/MainButton.tsx";
 import GoalTracker from "./components/GoalTracker.tsx";
+import FAQ from "./components/FAQ";
 function Home() {
     return (
         <div className="content">
@@ -21,6 +22,7 @@ function Home() {
             <GoalTracker />
             <Card text={<Fragment><b>Campaign Ends on April 30, 2025.</b><br />
                 Excess money depending on what goal was reached, will be donated to HARIBON Foundation, an environmental conservation organization based in the Philippines.</Fragment>} />
+            <FAQ />
         
         </div>
     );

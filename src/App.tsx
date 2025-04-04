@@ -16,8 +16,10 @@ function App() {
                   <Route path="/soon" element={<ComingSoon/>}/>
               </Routes>
               <p id="credits">
-                  Project organized by Moomin' Manila / Moomin' Worldwide<br/>
-                  With technical support from HoloPro Fans PH
+                  Project organized by Moomin' Manila / Moomin' Worldwide.<br/>
+                  With technical support from HoloPro Fans PH.<br/>
+                  This is a non-profit fan-made project.<br/>
+                  Not affiliated with COVER Corp.
               </p>
           </div>
           <img id="bgGlobe" src="/img/moomin moa web.webp" alt="MOA Globe"/>
