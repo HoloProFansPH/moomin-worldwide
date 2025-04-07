@@ -2,9 +2,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //import { BrowserRouter as Router, Routes } from "react-router-dom";
 import './App.css'
-import Home from './Home'
+import Home from './Home.tsx'
 import ComingSoon from "./ComingSoon.tsx";
 import SocMedButton from "./components/SocMedButton.tsx";
+import React from "react";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -17,9 +18,9 @@ function App() {
                   <Route path="/soon" element={<ComingSoon/>}/>
               </Routes>
               <div className="socmedRow">
-                  <SocMedButton link="https://facebook.com/MoominManila" icon="facebook" />
-                  <SocMedButton link="https://twitter.com/MoominManila" icon="twitter" />
-                  <SocMedButton link="mailto:moominmanila@gmail.com" icon="envelope" />
+                  <SocMedButton link="https://facebook.com/MoominManila" icon="fab fa-facebook-f" />
+                  <SocMedButton link="https://twitter.com/MoominManila" icon="fab fa-twitter" />
+                  <SocMedButton link="mailto:moominmanila@gmail.com" icon="fas fa-envelope" />
               </div>
               <p id="credits">
                   Project organized by Moomin' Manila / Moomin' Worldwide.<br/>

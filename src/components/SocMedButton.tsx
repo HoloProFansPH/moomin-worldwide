@@ -3,7 +3,7 @@
 function SocMedButton(props: { link: string; icon: string; }) {
     return (
         <a className="socmedButton" href={props.link} target="_blank">
-            <i className={`fa fa-${props.icon}`}></i>
+            <i className={props.icon}></i>
         </a>
     );
 }

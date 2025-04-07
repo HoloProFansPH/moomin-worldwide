@@ -1,3 +1,4 @@
+import React from "react";
 import { ReactElement, JSXElementConstructor } from "react";
 import { Fragment } from "react";
 
@@ -15,7 +16,6 @@ function FAQ() {
         <div className="card">
             <div className="cardHeader">
                 <span className="cardTitle">FAQ</span>
-                {/*<span className="cardTitle">50%</span>*/}
             </div>
             <div className="tableFlex">
                 <FAQitem q={<Fragment>What is <i>Moomin' Manila?</i></Fragment>} a="Moomin' Manila is a circle dedicated to producing hololive production-themed fan experiences in the Philippines.
