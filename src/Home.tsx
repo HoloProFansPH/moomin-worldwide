@@ -12,7 +12,7 @@ function Home() {
                 <span id="front">A Digital Billboard Campaign dedicated to Nanashi Mumei</span>
                 <span id="back">A Digital Billboard Campaign dedicated to Nanashi Mumei</span>
             </div>*/}
-            <img id="logoImg" src="/img/moomin worldwide logo with tagline.webp" alt="A Digital Billboard Campaign dedicated to Nanashi Mumei: Moomin' Worldwide"/>
+            <img id="logoImg" src="/img/moomin worldwide logo with tagline new.webp" alt="A Digital Billboard Campaign dedicated to Nanashi Mumei: Moomin' Worldwide"/>
             <HomeDescription />
             <div className="buttonRow">
                 <MainButton link="https://forms.gle/bEHjHFqBSTtTAvY6A" img="art.svg" text="Contribute Artworks" />

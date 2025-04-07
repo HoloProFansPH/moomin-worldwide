@@ -1,9 +1,9 @@
-function GoalItem(props: { goalName: string; goalDescription: string; goalAmount: string }) {
+function GoalItem(props: { goalName: string; goalDescription: string; goalAmount: string; complete?: boolean; ongoing?: boolean }) {
     return(
-        <div className="goalItem">
+        <div className={`goalItem ${props.complete ? "complete" : ""}${props.ongoing ? "ongoing" : ""}`}>
             <div className="goalItemLeft">
                 <span>
-                    <i className="fas fa-trophy"></i>
+                    {props.complete ? <i className="fas fa-check-circle" /> : <i className="fas fa-trophy" />}
                     <b>{props.goalName}:</b>
                 </span>
                 <span>{props.goalDescription}</span>

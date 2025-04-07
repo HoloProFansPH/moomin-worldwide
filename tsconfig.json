@@ -1,12 +1,7 @@
 {
   "files": [],
-  "compilerOptions": {
-    "types": ["vite/client"],
-    "jsx": "react-jsx"
-  },
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
 }
-//"types": ["vite/client"],

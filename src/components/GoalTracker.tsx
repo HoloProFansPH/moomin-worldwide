@@ -106,8 +106,8 @@ function GoalTracker() {
                 <span><i className="fa fa-flag-checkered"></i> PHP {donationAmount} / PHP {currentCheckpointPHP}</span>
             </div>
             <div className="tableFlex">
-                <GoalItem goalName="Minimum Goal" goalDescription="20-second ad on April 26, 2025" goalAmount="PHP 78,400 ~USD 1,500"/>
-                <GoalItem goalName="GOLDEN GOAL" goalDescription="increased to a 30-second ad on April 26, 2025" goalAmount="PHP 117,600 ~USD 2,200"/>
+                <GoalItem complete goalName="Minimum Goal" goalDescription="20-second ad on April 26, 2025" goalAmount="PHP 78,400 ~USD 1,500"/>
+                <GoalItem ongoing goalName="GOLDEN GOAL" goalDescription="increased to a 30-second ad on April 26, 2025" goalAmount="PHP 117,600 ~USD 2,200"/>
                 <GoalItem goalName="BONUS GOAL A" goalDescription="30-second ads on April 26 & 27, 2025" goalAmount="PHP 235,200 ~USD 4,300"/>
                 <GoalItem goalName="BONUS GOAL B" goalDescription="30-second ads on April 26, 27 & May 2, 2025" goalAmount="PHP 352,800 ~USD 6,500"/>
                 <GoalItem goalName="WE MOOM GOAL" goalDescription="30-second ads for an entire week" goalAmount="PHP 604,800 ~USD 11,000"/>

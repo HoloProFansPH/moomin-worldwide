@@ -182,6 +182,16 @@
   border-radius: 0.75rem;
   padding: 0.5rem 1rem;
 }
+.goalItem.complete {
+  background-color: lightgray;
+  color: #5B3D2D;
+}
+.goalItem.complete i {
+  color: #1fa715;
+}
+.goalItem.ongoing {
+  background-color: #54b3a1;
+}
 .goalItemLeft {
   display: flex;
   gap: 0.25rem;
