@@ -5,7 +5,6 @@ import './App.css'
 import Home from './Home.tsx'
 import ComingSoon from "./ComingSoon.tsx";
 import SocMedButton from "./components/SocMedButton.tsx";
-import React from "react";
 
 function App() {
   //const [count, setCount] = useState(0)

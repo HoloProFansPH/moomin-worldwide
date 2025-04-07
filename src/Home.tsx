@@ -5,7 +5,6 @@ import { Fragment } from "react";
 import MainButton from "./components/MainButton.tsx";
 import GoalTracker from "./components/GoalTracker.tsx";
 import FAQ from "./components/FAQ.tsx";
-import React from "react";
 function Home() {
     return (
         <div className="content">

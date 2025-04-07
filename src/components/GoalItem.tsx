@@ -1,5 +1,3 @@
-import React from "react";
-
 function GoalItem(props: { goalName: string; goalDescription: string; goalAmount: string }) {
     return(
         <div className="goalItem">
