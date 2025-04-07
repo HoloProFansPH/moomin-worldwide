@@ -62,7 +62,7 @@ function GoalTracker() {
     const fetchGoal = async () => {
         try {
             const result = await axios.get(import.meta.env.VITE_API_URL, { headers: { "auth": import.meta.env.VITE_API_AUTH } });
-            console.log(result.data);
+            //console.log(result.data);
             setCurrentGoalName(result.data.currentGoalName);
             setCurrentGoalPercentage(Number(result.data.currentGoalPercentage));
             setCurrentGoalPercentageDisplay(percentage(result.data.currentGoalPercentage));
@@ -81,7 +81,7 @@ function GoalTracker() {
     };
     useEffect(() => {
         fetchGoal();
-        console.log(import.meta.env.VITE_API_URL);
+        //console.log(import.meta.env.VITE_API_URL);
     }, []);
     useEffect(() => {
         const fetchInterval = setInterval(() => fetchGoal(), 60000);
