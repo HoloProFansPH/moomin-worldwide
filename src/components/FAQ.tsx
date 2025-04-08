@@ -23,7 +23,8 @@ MADNESS. While we are not affiliated with COVER Corp., we will strictly be adher
 Advertising Guidelines, which are laid out in their Derivative Works Guidelines."/>
                 <FAQitem q={<Fragment>How can I support <i>Moomin' Worldwide?</i></Fragment>} a="You can send your donations at moominworldwide.org via our official Ko-fi under ko-fi.com/moominmanila. For fans
 residing in the Philippines, you can donate locally via GCASH, MAYA, BDO, and BPI."/>
-                <FAQitem q="Can I submit my art for this campaign?" a="Please stay tuned about information on fanart submission."/>
+                <FAQitem q="Can I submit my art for this campaign?" a="You may submit your art via the website. Please note that your art may or may not be featured in the actual advertisement as there are limited slots available.
+Should your art not make it to the advertisement in MOA Globe, your art will still appear on the project website."/>
                 <FAQitem q="What happens if there are goals that are not reached?" a="In the event that the campaign does not reach its minimum goal or has excess donations, they will be donated to
 the HARIBON Foundation — an environmental conservation organization based in the Philippines."/>
                 <FAQitem q="Will there be physical events during the campaign?" a="While we cannot guarantee the success of the campaign, fans are welcome to visit the area and share their
