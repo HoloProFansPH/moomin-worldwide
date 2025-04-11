@@ -16,9 +16,12 @@
   mix-blend-mode: overlay;
   z-index: -1;
 }
-#logoImg {
-  height: 10rem;
+.logoImg {
+  height: 12rem;
   align-self: center;
+}
+#logoImgMobile {
+  display: none;
 }
 .tagline {
   font-weight: 600;
@@ -37,7 +40,7 @@
   text-shadow: 0 6px 6px #000000;
 }
 .content {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,6 +59,12 @@
   background-color: rgba(91, 61, 45, 0.75);
   color: white;
 }
+/*.cardBorder {
+  padding: 10px;
+  border-radius: 1rem;
+  background: transparent;
+  border: 10px solid rgba(91, 61, 45, 1);
+}*/
 .cardHeader{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -225,6 +234,25 @@
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
+.projectItem {
+  display: flex;
+  justify-content: space-between;
+  border: 0.25rem solid #bbbbbb;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: #5B3D2D;
+  text-align: left;
+  align-items: center;
+  transition: 0.3s;
+}
+.projectItem:hover {
+  border-color: #5B3D2D;
+}
+.projectItemText {
+  display: flex;
+  gap: 1rem;
+}
 
 /* iOS Safari modifications */
 @supports (-webkit-touch-callout: none) {
@@ -257,15 +285,25 @@
   #goalNameMobile {
     display: inline;
   }
+  .projectItemText {
+    flex-direction: column;
+    gap: 0;
+  }
   .buttonRow {
     flex-direction: column;
   }
   #root {
     height: 100vh;
   }
-  #logoImg {
+  .logoImg {
     height: auto;
     width: 100%;
+  }
+  #logoImgDesktop {
+    display: none;
+  }
+  #logoImgMobile {
+    display: inline;
   }
   .mainButton {
     padding: 0.75rem;
