@@ -59,6 +59,69 @@
   background-color: rgba(91, 61, 45, 0.75);
   color: white;
 }
+.dialogCard {
+  max-width: 960px;
+  width: calc(100% - 6rem);
+  background-color: #5B3D2D;
+  color: white;
+  border: 0;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  text-align: left;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialogCard a { color: inherit; }
+
+#closeButton {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+#closeButton:hover {
+color: #00a497;
+  transition: 0.3s;
+}
+
+#ribbonButton {
+  position: relative;
+  bottom: 2rem;
+  z-index: 3;
+  height: 5rem;
+  cursor: pointer;
+  filter: drop-shadow(0px 5px 5px #222);
+}
+
+dialog {
+  transition: display 1s, overlay 1s;
+  transition-behavior: allow-discrete;
+  animation: close 1s forwards;
+  &[open] {
+    animation: open 1s forwards;
+  }
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 /*.cardBorder {
   padding: 10px;
   border-radius: 1rem;

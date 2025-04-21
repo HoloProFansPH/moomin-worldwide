@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Home.tsx'
 import ComingSoon from "./ComingSoon.tsx";
 import SocMedButton from "./components/SocMedButton.tsx";
+import RibbonModal from "./components/RibbonModal.tsx";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -30,6 +31,7 @@ function App() {
           </div>
           <img id="bgGlobe" src="/img/moomin moa web.webp" alt="MOA Globe"/>
           <img id="bg" src="/img/bg.webp" alt="BG"/>
+          <RibbonModal />
       </Router>
   )
 }
