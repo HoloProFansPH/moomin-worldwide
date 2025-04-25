@@ -19,7 +19,7 @@ function Home() {
                  alt="A Digital Billboard Campaign dedicated to Nanashi Mumei: Moomin' Worldwide"/>
             <HomeDescription/>
             <div className="buttonRow">
-                <MainButton link="https://forms.gle/bEHjHFqBSTtTAvY6A" img="art.svg" text="Contribute Artworks"/>
+                {/*<MainButton link="https://forms.gle/bEHjHFqBSTtTAvY6A" img="art.svg" text="Contribute Artworks"/>*/}
                 <MainButton link="https://forms.gle/cYhrNWoQjDfBJEH29" img="ph.svg" text="Donate Locally (PH)"/>
                 <MainButton link="https://ko-fi.com/moominmanila/" img="worldmap.svg" text="Donate Internationally"/>
             </div>
