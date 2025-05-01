@@ -103,8 +103,7 @@ function GoalTracker() {
             {/*<span id="goalNameMobile">In Progress: <i>{currentGoalName}</i></span>*/}
             <span id="goalNameMobile">Completed: <i>{currentGoalName}</i></span>
             <div className="goalMeterData">
-                <span><i className="fa fa-clock"></i> {/*{deadline}*/}<Timer />
-                </span>
+                {/*<span><i className="fa fa-clock"></i> {deadline}<Timer /></span>*/}
                 <span><i className="fa fa-flag-checkered"></i> PHP {donationAmount} / PHP {currentCheckpointPHP}</span>
             </div>
             <div className="tableFlex">
