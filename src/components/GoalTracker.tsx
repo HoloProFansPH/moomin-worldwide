@@ -8,7 +8,7 @@ function GoalTracker() {
     const [currentGoalPercentageDisplay, setCurrentGoalPercentageDisplay] = useState<string>("-%");
     const [donationAmount, setDonationAmount] = useState(0);
     const [currentCheckpointPHP, setCurrentCheckpointPHP] = useState(1);
-    const [deadline, setDeadline] = useState(Date.now());
+    /*const [deadline, setDeadline] = useState(Date.now());*/
     //const [currentTime, setCurrentTime] = useState();
     /*const CountdownRenderer = ({ days, hours, minutes, seconds }) => (
         <>
@@ -30,7 +30,7 @@ function GoalTracker() {
             return(<></>);
         }
     }*/
-    const Timer = () => {
+    /*const Timer = () => {
         //console.log(deadline);
         const [days, setDays] = useState(0);
         const [hours, setHours] = useState(0);
@@ -57,7 +57,7 @@ function GoalTracker() {
                 {days}d {hours}h {minutes}m {seconds}s
             </span>
         );
-    };
+    };*/
 
     const fetchGoal = async () => {
         try {
@@ -72,7 +72,7 @@ function GoalTracker() {
             setCurrentCheckpointPHP(result.data.currentCheckpointPHP.toLocaleString(
                 undefined, { minimumFractionDigits: 2 }
             ));
-            setDeadline(Date.parse(result.data.deadline));
+            /*setDeadline(Date.parse(result.data.deadline));*/
             //setCurrentTime(result.data.currentTime);
             //console.log(deadline)
         } catch (error) {
